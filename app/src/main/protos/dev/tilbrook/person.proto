@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package tilbrook.proto3json;
+
+option java_package = "dev.tilbrook.proto3json";
+
+message Person {
+  string name = 1;
+  repeated string contacts = 2;
+  int32 age = 3;
+  int32 height = 4;
+}
+
+message Dog {
+  string name = 1;
+  string bread = 2;
+  int32 age = 3;
+  int32 height = 4;
+}
