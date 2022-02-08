@@ -8,7 +8,9 @@ wire {
     sourcePath {
         srcDir 'src/main/protos'
     }
-    kotlin {}
+    kotlin {
+        javaInterop = true
+    }
 }
 
 android {
